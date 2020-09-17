@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>We Design</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <ul>
+            <button id="button-navbar">🞬</button>
+            <li class='p-navbar'>
+                <a href="#home"> HOME </a>
+            </li>
+            <li class='p-navbar'>
+                <a href="#projects"> PROJECTS </a>
+            </li>
+            <li class='p-navbar'>
+                <a href="#contact"> CONTACT </a>
+            </li>
+            <li class='p-navbar'>
+                <a href="#logIn"> LOG IN </a>
+            </li>
+            <li class='p-navbar'>
+                <a href="#about"> ABOUT US </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- main -->
+    <div class='wrapper'>
+        <div class="flex-grid-main">
+            <div class="col">
+                <img class='img-landinpage' src="css/img/we_design.png" alt="we design">
+                <p class='p-main'>Amazing responsive website</p>
+                <p class='p-main'>Cool design</p>
+                <p class='p-main'>Commerce and Business Themes</p>
+                <p class='p-main'>Multi-purpuse templates</p>
+
+
+                <button class="button-main">Join</button>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="flex-grid-footer">
+                <div class="col">
+                    <img class="icon" src="css/img/growth.svg" alt="icon">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Morbi tempus lacinia sem, in sodales lacus malesuada ut. Phasellus ut fermentum nunc</p>
+                </div>
+                <div class="col">
+                    <img class="icon" src="css/img/clock.svg" alt="icon">
+                    <p>Ut tempor sapien dictum, viverra velit sit amet, tincidunt nisi.
+                        In blandit iaculis mi, id auctor metus finibus non. Etiam ultricies magna ac ipsum pellentesque.
+                    </p>
+                </div>
+                <div class="col">
+                    <img class="icon" src="css/img/cake.svg" alt="icon">
+                    <p>Curabitur ut massa a odio sollicitudin ullamcorper. Sed nisi ante, venenatis sit amet accumsan
+                        quis,
+                        ornare ut nibh.
+                        Cras mi neque, rutrum in quam sit amet</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $("#button-navbar").click(function () {
+
+            if ($("#button-navbar").text() == "☰") {
+                $("#button-navbar").text("🞬");
+            } else {
+                $("#button-navbar").text("☰");
+            }
+            $("li").toggle("slow");
+        });
+    });
+</script>
+
+</html>

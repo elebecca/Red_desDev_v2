@@ -1,0 +1,38 @@
+#######################
+##                   ##
+##   DEV ASSIGMENT   ##
+##  RED INTERACTIVE  ##
+##                 v2##
+#######################
+
+Landing Page Dev
+
+1. Choose one design to code
+2. Code without using any frameworks (like bootstrap etc.)
+3. Use CSS Media Queries for Responsiveness
+
+
+## Try to achieve:
+- Code Compatibility across browsers and devices
+- Retain Readability and Image Quality across devices
+- Code for: Mobile (portrait), Tablet (portrait), Tablet (landscape) and Laptop/Desktop screen resolution
+
+
+## Shortcuts:
+- don’t worry about design/picture elements - those don’t have to match. you can choose your own images. please remember this assignment is all about correct and bug free responsive front-end code.
+- feel free to use fonts.google.com
+- feel free to use any SVGs or FontAwesome
+- feel free to use any icons as PNGs
+- feel free to improve or expand on selected design.
+
+
+## Bonus Points for:
+- adding expanding/dropdown burger menu (JS)
+- adding any HTML5/CSS animations to elements
+- compatibility with mobile landscape
+- cookie pop notification (JS close, or display for 5 seconds and close (JS))
+
+
+## When completed:
+- Send over or host your landing page
+- Share how long it took you to complete the code
