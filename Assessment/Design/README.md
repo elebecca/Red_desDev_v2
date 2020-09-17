@@ -1,8 +1,8 @@
 
-Time:
+## Time:
 Test completed in 5 hours
 
-Summary:
+## Summary:
 I used the same elements for all the different sizes. 
 The call of actions is the most visible element of the page. 
 I tried to use the space and the elements to guide the user to what I want to go.
